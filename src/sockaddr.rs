@@ -231,6 +231,7 @@ impl From<SocketAddrV4> for SockAddr {
                 target_os = "freebsd",
                 target_os = "haiku",
                 target_os = "ios",
+                target_os = "watchos",
                 target_os = "macos",
                 target_os = "netbsd",
                 target_os = "openbsd"
@@ -270,6 +271,7 @@ impl From<SocketAddrV6> for SockAddr {
                 target_os = "freebsd",
                 target_os = "haiku",
                 target_os = "ios",
+                target_os = "watchos",
                 target_os = "macos",
                 target_os = "netbsd",
                 target_os = "openbsd"
@@ -297,6 +299,7 @@ impl fmt::Debug for SockAddr {
             target_os = "haiku",
             target_os = "hermit",
             target_os = "ios",
+            target_os = "watchos",
             target_os = "macos",
             target_os = "netbsd",
             target_os = "openbsd",
